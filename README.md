@@ -61,7 +61,7 @@ All key elements include data-testid attributes:
 Designed using CSS Flexbox and Grid, ensuring a smooth layout across all screen sizes.
 
 🌐 Live Demo  
-🚧 Live link coming soon — will be hosted on Netlify or GitHub Pages.
+View live on Netlify: https://hngprofilecard0.netlify.app
 
 (You can preview locally by opening `index.html` in your browser.)
 
