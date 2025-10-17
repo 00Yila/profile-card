@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <article data-testid="test-profile-card" class="profile-card">
+        <div class="card-grid">
+            
+            <aside class="avatar-section">
+                <figure class="avatar-figure">
+                    <img 
+                        data-testid="test-user-avatar" 
+                        id="avatar-image"
+                        src="avatar/1760717285091.jpg" 
+                        alt="A profile picture of the user" 
+                        class="avatar-img">
+                    <figcaption class="avatar-caption">
+                        00Yila
+                    </figcaption>
+                </figure>
+                
+                <div class="upload-section">
+                    <label for="avatar-upload" class="upload-label">
+                        Change Avatar
+                    </label>
+                    <input type="file" id="avatar-upload" class="hidden" accept="image/*">
+                </div>
+            </aside>
+
+            <main class="user-info">
+                <header class="user-header">
+                    <h2 data-testid="test-user-name" class="user-name">David-Pari K. Arabs</h2>
+                </header>
+                
+                <p data-testid="test-user-bio" class="user-bio">
+                    A passionate frontend developer with a love for creating accessible, responsive, and user-friendly web experiences. Always learning and exploring new technologies.
+                </p>
+
+                <div class="current-time">
+                    <span class="time-label">Current Time (ms):</span>
+                    <span data-testid="test-user-time" id="current-time"></span>
+                </div>
+
+                <nav aria-label="Social media links" class="social-nav">
+                    <h3 class="social-heading">Connect</h3>
+                    <ul data-testid="test-user-social-links" class="social-links">
+                        <li>
+                            <a href="https://x.com/Whyte_prime" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter" class="social-link">Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/00Yila" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github" class="social-link">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/david-pari-arabs" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin" class="social-link">LinkedIn</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="interests-grid">
+                    <section aria-labelledby="hobbies-heading">
+                        <h3 id="hobbies-heading" class="interests-heading">Hobbies</h3>
+                        <ul data-testid="test-user-hobbies" class="interests-list">
+                            <li>Watching</li>
+                            <li>Gaming</li>
+                            <li>coding</li>
+                        </ul>
+                    </section>
+                    <section aria-labelledby="dislikes-heading">
+                        <h3 id="dislikes-heading" class="interests-heading">Dislikes</h3>
+                        <ul data-testid="test-user-dislikes" class="interests-list">
+                            <li>Slow internet</li>
+                            <li>Loud Crowds</li>
+                            <li>Meetings that could be emails</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>
