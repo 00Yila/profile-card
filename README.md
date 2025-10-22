@@ -26,7 +26,7 @@ A modern web browser (Chrome, Edge, Firefox, Safari, etc.)
 
 2️⃣ Installation
 - Clone this repository:
-  git clone https://github.com/00Yila/profile-card-component.git
+  git clone https://github.com/00Yila/profile-card.git
 - Navigate into the directory:
   cd profile-card
 
